@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <width=50%>
 <head>
 <meta charset="utf-8">
 <title>manuretest5</title>
@@ -16,7 +17,7 @@ var ogIMG = document.head.querySelector('meta[property="og:image"]');
 if(ogIMG.content.indexOf("://"<0)){ogIMG.content = ogURL.slice(0,ogURL.lastIndexOf("/"))+"/"+ogIMG.content;}
 document.head.querySelector('meta[property="og:url"]').content=ogURL;
 </script>
-<meta name="viewport" content="initial-scale=0.5,minimum-scale=.2,maximum-scale=1.0,user-scalable=no">
+<meta name="viewport" content="initial-scale=0.5,minimum-scale=.2,maximum-scale=1.0,user-scalable=yes">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script type="text/javascript" src="assets/js/vmouse.min.js"></script>
